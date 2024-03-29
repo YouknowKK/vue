@@ -10,6 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "lib-flexible": "^0.3.2",
     "vue": "^2.5.2",
     "vue-hot-reload-api": "^2.3.4",
     "vue-router": "^3.0.1"
@@ -37,7 +39,9 @@
     "portfinder": "^1.0.13",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
+    "postcss-pxtorem": "^6.1.0",
     "postcss-url": "^7.2.1",
+    "px2rem-loader": "^0.1.9",
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
